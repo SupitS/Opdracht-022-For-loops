@@ -15,5 +15,8 @@ function assignGrade(score) {
     } else {
         return 'E';
     }
-}
+};
 
+  for (let i = 60; i <= 100; i++) {
+    console.log("Voor " + i + " punten, krijg je een " + assignGrade(i));
+  };
